@@ -10,5 +10,5 @@ import Foundation
 
 class Values {
     static let LOCATIONS_KEY = "locations"
-    static let locations: [String] = ["London", "Stockholm", "Beijing", "Jerusalem", "Johannesburg", "Sydney", "Barcelona", "Blaughf"]
+    static let locations: [String] = ["London", "Stockholm", "Beijing", "Jerusalem", "Johannesburg", "Sydney", "Barcelona"]
 }

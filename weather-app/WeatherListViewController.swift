@@ -19,7 +19,6 @@ class WeatherListViewController: UITableViewController {
         super.viewDidLoad()
         
         locationsList = UserDefaultsHelper.getLocations()
-        
         createRefresher()
         loadAll()
         
@@ -112,7 +111,7 @@ class WeatherListViewController: UITableViewController {
             cell.pressureValue.text = "Hittades inte"
         }
         
-        cell.cityName.text = weatherResponse.name!
+        cell.cityName.text = name
         
         
         return cell
